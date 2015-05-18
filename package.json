@@ -1,0 +1,21 @@
+{
+  "name": "react-isomorphic",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browserify -t [ babelify ] public/client.js -o public/bundle.js && babel-node server.js"
+  },
+  "author": "chtefi",
+  "license": "MIT",
+  "dependencies": {
+    "chance": "^0.7.5",
+    "express": "^4.12.4",
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.1",
+    "brfs": "^1.4.0"
+  }
+}
